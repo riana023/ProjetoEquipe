@@ -1,6 +1,10 @@
 public class Main {
     public static void main(String[] args) {
 
+        // Artur - Criação e interação com a classe Leitor
+        
+Biblioteca biblioteca = new Biblioteca();
+Leitor leitor = new Leitor("José", biblioteca);
 Autor autor1 = new Autor("Robert Kiyosaki e Sharon Lechter");
 Autor autor2 = new Autor("Jane Doe");
 
